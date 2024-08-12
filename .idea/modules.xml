@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gerenciador-de-locais.iml" filepath="$PROJECT_DIR$/.idea/gerenciador-de-locais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gerenciador-de-locais/gerenciador-de-locais.iml" filepath="$PROJECT_DIR$/gerenciador-de-locais/gerenciador-de-locais.iml" />
     </modules>
   </component>
 </project>

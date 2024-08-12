@@ -38,7 +38,7 @@ public class Local {
      * O bairro é obrigatório e deve ter no máximo 255 caracteres.
      */
     @NotBlank(message = "O nome do bairro é obrigatório.")
-    @Size(max = 255, message = "O bairro deve ter no máximo 255 caracteres.")
+    @Size(max = 100, message = "O bairro deve ter no máximo 100 caracteres.")
     private String bairro;
 
     /**
@@ -47,6 +47,7 @@ public class Local {
      * A cidade é obrigatória.
      */
     @NotBlank(message = "O nome da cidade é obrigatório.")
+    @Size(max = 100, message = "A cidade deve ter no máximo 100 caracteres.")
     private String cidade;
 
     /**
@@ -55,6 +56,7 @@ public class Local {
      * O estado é obrigatório.
      */
     @NotBlank(message = "O nome do estado é obrigatório.")
+    @Size(max = 100, message = "O nome do estado deve ter no máximo 100 caracteres.")
     private String estado;
 
     /**

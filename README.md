@@ -34,7 +34,7 @@ Este projeto é uma aplicação Java desenvolvida com Spring Boot para gerenciar
 2. **Navegue até o diretório do projeto**
 
    ```bash
-   cd Gerenciador-de-Locais
+    cd .\gerenciador-de-locais\gerenciador-de-locais\
    ```
 
 3. **Certifique-se de que o Maven está instalado**. Caso não tenha o Maven instalado, siga as instruções [aqui](https://maven.apache.org/install.html).

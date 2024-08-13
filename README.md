@@ -132,7 +132,7 @@ Aqui estão alguns exemplos de endpoints disponíveis na API:
 - **Listar os Locais por nome**
 
   ```http
-  GET /locais/{nome}
+  GET /locais/nome/{nome}
   ```
 
 - **Atualizar Local**
@@ -160,7 +160,7 @@ Aqui estão alguns exemplos de endpoints disponíveis na API:
 - **Excluir Local por nome**
 
   ```http
-  DELETE /{nome}
+  DELETE /nome/{nome}
   ```
 
 ## Contribuição
